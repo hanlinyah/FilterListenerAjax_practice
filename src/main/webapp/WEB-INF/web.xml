@@ -1,0 +1,9 @@
+<!--要解析EL表達是要用version3.0以後，否則無法使用，參考資料：
+https://github.com/apache/tomcat/blob/main/conf/web.xml
+-->
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+  <!--    設置session銷毀時間-->
+</web-app>
